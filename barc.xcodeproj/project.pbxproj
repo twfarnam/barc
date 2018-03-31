@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075590032061A072007D4AAC /* fail_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 075590022061A072007D4AAC /* fail_sound.caf */; };
+		075EB89D204DAF180056E686 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EB89C204DAF180056E686 /* NeuralNetwork.swift */; };
 		0774EFFE1FA8C1DF00134C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774EFFD1FA8C1DF00134C8F /* AppDelegate.swift */; };
 		0774F0001FA8C1DF00134C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774EFFF1FA8C1DF00134C8F /* ViewController.swift */; };
 		0774F0031FA8C1DF00134C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0774F0011FA8C1DF00134C8F /* Main.storyboard */; };
 		0774F0051FA8C1DF00134C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0774F0041FA8C1DF00134C8F /* Assets.xcassets */; };
 		0774F0081FA8C1DF00134C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0774F0061FA8C1DF00134C8F /* LaunchScreen.storyboard */; };
-		07F67BEC20326AD8008C8D1B /* ImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67BEB20326AD8008C8D1B /* ImageCapture.swift */; };
-		07F67BEE20326AED008C8D1B /* ImageRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67BED20326AED008C8D1B /* ImageRecognitionService.swift */; };
-		07F67BF020326B79008C8D1B /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67BEF20326B79008C8D1B /* Speaker.swift */; };
-		07F67BF32033BBDB008C8D1B /* shutter.caf in Resources */ = {isa = PBXBuildFile; fileRef = 07F67BF12033B77F008C8D1B /* shutter.caf */; };
-		07F67BF62033C02E008C8D1B /* waiting_click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07F67BF52033C02E008C8D1B /* waiting_click.wav */; };
+		07F67BEC20326AD8008C8D1B /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67BEB20326AD8008C8D1B /* Camera.swift */; };
+		07F67BEE20326AED008C8D1B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67BED20326AED008C8D1B /* WebService.swift */; };
+		07F67BF020326B79008C8D1B /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67BEF20326B79008C8D1B /* Voice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075590022061A072007D4AAC /* fail_sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fail_sound.caf; sourceTree = "<group>"; };
+		075EB89C204DAF180056E686 /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
 		0774EFFA1FA8C1DF00134C8F /* barc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0774EFFD1FA8C1DF00134C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0774EFFF1FA8C1DF00134C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,11 +29,9 @@
 		0774F0041FA8C1DF00134C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0774F0071FA8C1DF00134C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0774F0091FA8C1DF00134C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07F67BEB20326AD8008C8D1B /* ImageCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCapture.swift; sourceTree = "<group>"; };
-		07F67BED20326AED008C8D1B /* ImageRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionService.swift; sourceTree = "<group>"; };
-		07F67BEF20326B79008C8D1B /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
-		07F67BF12033B77F008C8D1B /* shutter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shutter.caf; sourceTree = "<group>"; };
-		07F67BF52033C02E008C8D1B /* waiting_click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = waiting_click.wav; sourceTree = "<group>"; };
+		07F67BEB20326AD8008C8D1B /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		07F67BED20326AED008C8D1B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		07F67BEF20326B79008C8D1B /* Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +64,14 @@
 		0774EFFC1FA8C1DF00134C8F /* barc */ = {
 			isa = PBXGroup;
 			children = (
-				07F67BF12033B77F008C8D1B /* shutter.caf */,
-				07F67BF52033C02E008C8D1B /* waiting_click.wav */,
 				0774EFFD1FA8C1DF00134C8F /* AppDelegate.swift */,
 				0774EFFF1FA8C1DF00134C8F /* ViewController.swift */,
-				07F67BEB20326AD8008C8D1B /* ImageCapture.swift */,
-				07F67BED20326AED008C8D1B /* ImageRecognitionService.swift */,
-				07F67BEF20326B79008C8D1B /* Speaker.swift */,
+				07F67BEB20326AD8008C8D1B /* Camera.swift */,
+				07F67BED20326AED008C8D1B /* WebService.swift */,
+				075EB89C204DAF180056E686 /* NeuralNetwork.swift */,
+				07F67BEF20326B79008C8D1B /* Voice.swift */,
 				0774F0011FA8C1DF00134C8F /* Main.storyboard */,
+				075590022061A072007D4AAC /* fail_sound.caf */,
 				0774F0041FA8C1DF00134C8F /* Assets.xcassets */,
 				0774F0061FA8C1DF00134C8F /* LaunchScreen.storyboard */,
 				0774F0091FA8C1DF00134C8F /* Info.plist */,
@@ -138,10 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F67BF32033BBDB008C8D1B /* shutter.caf in Resources */,
 				0774F0081FA8C1DF00134C8F /* LaunchScreen.storyboard in Resources */,
-				07F67BF62033C02E008C8D1B /* waiting_click.wav in Resources */,
 				0774F0051FA8C1DF00134C8F /* Assets.xcassets in Resources */,
+				075590032061A072007D4AAC /* fail_sound.caf in Resources */,
 				0774F0031FA8C1DF00134C8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,10 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0774F0001FA8C1DF00134C8F /* ViewController.swift in Sources */,
-				07F67BEE20326AED008C8D1B /* ImageRecognitionService.swift in Sources */,
-				07F67BF020326B79008C8D1B /* Speaker.swift in Sources */,
+				07F67BEE20326AED008C8D1B /* WebService.swift in Sources */,
+				07F67BF020326B79008C8D1B /* Voice.swift in Sources */,
 				0774EFFE1FA8C1DF00134C8F /* AppDelegate.swift in Sources */,
-				07F67BEC20326AD8008C8D1B /* ImageCapture.swift in Sources */,
+				07F67BEC20326AD8008C8D1B /* Camera.swift in Sources */,
+				075EB89D204DAF180056E686 /* NeuralNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
