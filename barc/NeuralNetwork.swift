@@ -34,7 +34,7 @@ class NeuralNetwork {
     
     
     init() {
-        modelRemoteURL = URL(string:  "https://admin:4Fbz8RL2U5PUcRdq@barc.squids.online/static/barc.mlmodel")!
+        modelRemoteURL = URL(string:  "https://barc.squids.online/static/barc.mlmodel")!
         
         let appSupportDirectory = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
         try? FileManager.default.createDirectory(at: appSupportDirectory!, withIntermediateDirectories: true)
